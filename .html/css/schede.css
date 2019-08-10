@@ -1,0 +1,16 @@
+.card { 
+    border: 1px solid black;
+    padding: 4px;
+    font-size: 300%;
+}
+.front {
+    background-color: #ddd;
+    display: block;
+}
+.back {
+    background-color: #99cccc;
+    display: none;
+}
+#cardframe {
+    display: inline-block;
+}
