@@ -50,10 +50,11 @@ function settitle() {
 function list() {
     var txt="<table>";
     cards.forEach(function(entry) {
+        var soundid = entry.front.replace(/'/g, 'A');
         txt += "<tr><td>" + entry.front + "</td>" 
         txt += "<td>" + entry.back + "</td>"
-        txt += "<td><span><audio id=\"soundfile-" + entry.front + "\" src=\"audio/" + entry.sound + "\" preload=\"auto\"></audio>"
-        txt += "<a href=\"javascript:document.getElementById('soundfile-" + entry.front + "').play()\">"
+        txt += "<td><span><audio id=\"soundfile-" + soundid + "\" src=\"audio/" + entry.sound + "\" preload=\"auto\"></audio>"
+        txt += "<a href=\"javascript:document.getElementById('soundfile-" + soundid + "').play()\">"
         txt += "<img src=\"img/speaker-on.png\" width=\"32\"/></a></span></td></tr>";
     });
     txt += "</table>"
