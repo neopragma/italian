@@ -50,7 +50,11 @@ function settitle() {
 function list() {
     var txt="<table>";
     cards.forEach(function(entry) {
-        txt += "<tr><td>" + entry.front + "</td><td>" + entry.back + "</td></tr>";
+        txt += "<tr><td>" + entry.front + "</td>" 
+        txt += "<td>" + entry.back + "</td>"
+        txt += "<td><span><audio id=\"soundfile-" + entry.front + "\" src=\"audio/" + entry.sound + "\" preload=\"auto\"></audio>"
+        txt += "<a href=\"javascript:document.getElementById('soundfile-" + entry.front + "').play()\">"
+        txt += "<img src=\"img/speaker-on.png\" width=\"32\"/></a></span></td></tr>";
     });
     txt += "</table>"
     document.getElementById("allvalues").innerHTML=txt;
