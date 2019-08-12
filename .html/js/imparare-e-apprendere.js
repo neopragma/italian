@@ -29,3 +29,10 @@ cards[cards.length] = new card("I learn a lot from my friends (a)","Apprendo mol
 cards[cards.length] = new card("It's challenging to learn Italian (a)","&Egrave; difficile apprendere l'italiano","e-difficile-apprendere-l-italiano.mp3")
 cards[cards.length] = new card("I learned a few new words yesterday (a)","Ho appreso alcune nuove parole ieri","ho-appreso-alcune-nuove-parole-ieri.mp3")
 cards[cards.length] = new card("What's the difference between <em>imparare</em> and <em>apprendere</em>?","Qual &egrave; la differenza tra <em>imparare</em> e <em>apprendere</em>?","qual-e-la-differenza-tra-imparare-e-apprendere.mp3")
+cards[cards.length] = new card("Italian grammar is hard to learn","La grammatica italiana &egrave; difficile da imparare","la-grammatica-italiana-e-difficile-da-imparare.mp3")
+cards[cards.length] = new card("The more I listen, the more I learn","Pi&ugrave; ascolto, pi&ugrave; imparo","piu-ascolto-piu-imparo.mp3")
+cards[cards.length] = new card("","",".mp3")
+cards[cards.length] = new card("","",".mp3")
+cards[cards.length] = new card("","",".mp3")
+
+
