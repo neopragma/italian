@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Schede Flash</title>
+<meta charset="UTF=8">
+<base target="_blank">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, print" />
+<link rel="stylesheet" href="css/schede.css" type="text/css" media="screen, print" />
+<script src="js/card.js"></script>
+<script src="js/l-ora-del-giorno.js"></script>
+<script src="js/flashcards.js"></script>
+</head>
+<body onload="settitle();set()">
+
+<h2 id="pagetitle">Schede Flash</h2>
+
+<div id="cardframe">
+<p id="cardnumber">
+</p>
+<p>
+<span id="card-front" class="card front"></span>
+<span id="card-back" class="card back"></span>
+<span id="no-sound">
+    <img src="img/speaker-off.png" width="32"/>
+</span>
+<span id="sound">
+<audio id="soundfile" src="#" preload="auto"></audio>
+<a href="javascript:document.getElementById('soundfile').play()"><img src="img/speaker-on.png" width="32"/></a>
+</span>
+
+<button type="button" onclick="javascript:flip()">Flip</button>
+<button type="button" onclick="javascript:previous()">Previous</button>
+<button type="button" onclick="javascript:next()">Next</button>
+<button type="button" onclick="javascript:random()">Random</button>
+<button type="button" onclick="javascript:list()">List</button>
+</p>
+</div>
+
+<div id="allvalues"></div>
+
+</body>
+</html>
