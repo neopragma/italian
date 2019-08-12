@@ -1,4 +1,4 @@
-var title = "Modello per Schede Flash"
+var title = "Frasi comuni"
 
 var cards = []
 //cards[cards.length] = new card("english","italiano","audio.mp3")
@@ -9,8 +9,14 @@ cards[cards.length] = new card("I didn't understand that; I didn't get it","Non 
 cards[cards.length] = new card("Repeat, please","Ripeteresti, per favore","ripeteresti-per-favore.mp3")
 cards[cards.length] = new card("A little slower, please","Un po 'pi&ugrave; lento, per favore","un-po-piu-lento-per-favore.mp3")
 cards[cards.length] = new card("Sorry, I don't speak Italian","Scusa, non parlo italiano","scusa-non-parlo-italiano.mp3")
-cards[cards.length] = new card("","",".mp3")
-cards[cards.length] = new card("","",".mp3")
-cards[cards.length] = new card("","",".mp3")
+cards[cards.length] = new card("more or less","pi&ugrave; o meno","piu-o-meno.mp3")
+cards[cards.length] = new card("again (1)","ancora","ancora.mp3")
+cards[cards.length] = new card("again (2)","di nuovo","di-nuovo.mp3")
+cards[cards.length] = new card("again (3)","nuovamente","nuovamente.mp3")
+cards[cards.length] = new card("one more time","un'altra volta","un-altra-volta.mp3")
+cards[cards.length] = new card("from the beginning","daccapo","daccapo.mp3")
+cards[cards.length] = new card("I basically understood","Ho capito basicamente","ho-capito-basicamente.mp3")
+cards[cards.length] = new card("I would like to try to speak Italian","Vorrei provare a parlare italiano","vorrei-provare-a-parlare-italiano.mp3")
+cards[cards.length] = new card("That was lost in translation","Questo &egrave; stato perso nella traduzione","questo-e-stato-perso-nella-traduzione.mp3")
 cards[cards.length] = new card("","",".mp3")
 cards[cards.length] = new card("","",".mp3")
