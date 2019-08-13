@@ -41,4 +41,7 @@ cards[cards.length] = new card("We'll have a light dinner tonight","Stasera fare
 cards[cards.length] = new card("This evening we'll cook on the grill","Stasera cucineremo alla griglia","stasera-cucineremo-alla-griglia.mp3")
 cards[cards.length] = new card("This evening we'll have dinner early","Stasera ceneremo presto","stasera-ceneremo-presto.mp3")
 cards[cards.length] = new card("Yesterday we had dinner late","Ieri abbiamo cenato tardi","ieri-abbiamo-cenato-tardi.mp3")
+cards[cards.length] = new card("What would you like for dinner tonight?","Cosa vorresti per cena stasera?","cosa-vorresti-per-cena-stasera.mp3")
+cards[cards.length] = new card("I'm not hungry now, but I'll be hungry later","Non ho fame ora, ma dopo avr&ograve; fame","non-ho-fame-ora-ma-dopo-avro-fame.mp3")
+cards[cards.length] = new card("I'm not hungry now, but I will be later","Non ho fame ora, ma lo sar&ograve; pi&ugrave; tardi","non-ho-fame-ora-ma-lo-saro-piu-tardi.mp3")
 cards[cards.length] = new card("","",".mp3")
