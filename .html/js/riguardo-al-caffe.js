@@ -64,5 +64,5 @@ cards[cards.length] = new card("most Italians don't drink cappuccino after 11:00
 cards[cards.length] = new card("caff&egrave; Americano is stronger than coffee in America","il caff&egrave; americano &egrave; pi&ugrave; forte del caff&egrave; in America","il-caffe-americano-e-piu-forte-del-caffe-in-america.mp3")
 cards[cards.length] = new card("the American drink \"quad espresso\" is unheard-of in Italy","la bevanda americana \"quad espresso\" &egrave; inaudita in Italia","la-bevanda-americana-quad-espresso-e-inaudita-in-italia.mp3")
 cards[cards.length] = new card("I can't resisting eating a brioche with my morning coffee","non posso resistere a mangiare una brioche con il mio caff&egrave; del mattino","non-posso-resistere-a-mangiare-una-brioche-con-il-mio-caffe-del-mattino.mp3")
-cards[cards.length] = new card("","",".mp3")
+cards[cards.length] = new card("The coffee maker is ready","La caffettiera &egrave; pronta","la-caffettiera-e-pronta.mp3")
 cards[cards.length] = new card("","",".mp3")
