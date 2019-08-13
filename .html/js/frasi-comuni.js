@@ -26,3 +26,5 @@ cards[cards.length] = new card("Thank you (informal) for your patience","Grazie 
 cards[cards.length] = new card("That is a great help","Questo &egrave; di grande aiuto","questo-e-di-grande-aiuto.mp3")
 cards[cards.length] = new card("","",".mp3")
 cards[cards.length] = new card("","",".mp3")
+cards[cards.length] = new card("","",".mp3")
+cards[cards.length] = new card("","",".mp3")
