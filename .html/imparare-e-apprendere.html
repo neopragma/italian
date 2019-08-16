@@ -24,8 +24,16 @@
     <img src="img/speaker-off.png" width="32"/>
 </span>
 <span id="sound">
+
+<!--
+<audio id="soundfile" preload="auto">
+	<source src="#" type="audio/mpeg" />
+</audio>
+-->
+
 <audio id="soundfile" src="#" preload="auto"></audio>
 <a href="javascript:document.getElementById('soundfile').play()"><img src="img/speaker-on.png" width="32"/></a>
+
 </span>
 
 <button type="button" onclick="javascript:flip()">Flip</button>
