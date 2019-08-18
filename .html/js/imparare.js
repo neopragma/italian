@@ -1,0 +1,19 @@
+var title = "Imparare"
+
+var cards = []
+//cards[cards.length] = new card("english","italiano","audio.mp3")
+cards[cards.length] = new card("to learn","imparare","imparare.mp3")
+cards[cards.length] = new card("I learn","io imparo","io-imparo.mp3")
+cards[cards.length] = new card("I am learning","sto imparando","sto-imparando.mp3")
+cards[cards.length] = new card("I learned","ho imparato","ho-imparato.mp3")
+cards[cards.length] = new card("I learned a lot","ho imparato molto","ho-imparato-molto.mp3")
+cards[cards.length] = new card("I'm learning a lot","sto imparando molto","sto-imparando-molto.mp3")
+cards[cards.length] = new card("I'm learning with effort","sto imparando con sforzo","sto-imparando-con-sforzo.mp3")
+cards[cards.length] = new card("I'm learning gradually","sto imparando gradualmente","sto-imparando-gradualmente.mp3")
+cards[cards.length] = new card("I'm learning step by step","sto imparando passo dopo passo","sto-imparando-passo-dopo-passo.mp3")
+cards[cards.length] = new card("I'm learning slowly","sto imparando lentamente","sto-imparando-lentamente.mp3")
+cards[cards.length] = new card("I learn a lot from my friends","Imparo molto dai miei amici","imparo-molto-dai-miei-amici.mp3")
+cards[cards.length] = new card("It's challenging to learn Italian","&Egrave; difficile imparare l'italiano","e-difficile-imparare-l-italiano.mp3")
+cards[cards.length] = new card("I learned a few new words yesterday","Ho imparato alcune nuove parole ieri","ho-imparato-alcune-nuove-parole-ieri.mp3")
+cards[cards.length] = new card("Italian grammar is hard to learn","La grammatica italiana &egrave; difficile da imparare","la-grammatica-italiana-e-difficile-da-imparare.mp3")
+cards[cards.length] = new card("The more I listen, the more I learn","Pi&ugrave; ascolto, pi&ugrave; imparo","piu-ascolto-piu-imparo.mp3")
