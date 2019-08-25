@@ -1,0 +1,22 @@
+var title = "L'ora del giorno (livello 1)"
+
+var cards = []
+//cards[cards.length] = new card("english","italiano","audio.mp3")
+cards[cards.length] = new card("time","tempo","tempo.mp3")
+cards[cards.length] = new card("hour","ora","ora.mp3")
+cards[cards.length] = new card("an hour","un'ora","un-ora.mp3")
+cards[cards.length] = new card("a minute","un minuto","un-minuto.mp3")
+cards[cards.length] = new card("midnight","mezzonotte","mezzonotte.mp3")
+cards[cards.length] = new card("noon, midday","mezzogiorno","mezzogiorno.mp3")
+cards[cards.length] = new card("one o'clock","l'una","l-una.mp3")
+cards[cards.length] = new card("two o'clock","le due","le-due.mp3")
+cards[cards.length] = new card("three o'clock","le tre","le-tre.mp3")
+cards[cards.length] = new card("four o'clock","le quattro","le-quattro.mp3")
+cards[cards.length] = new card("five o'clock","le cinque","le-cinque.mp3")
+cards[cards.length] = new card("six o'clock","le sei","le-sei.mp3")
+cards[cards.length] = new card("seven o'clock","le sette","le-sette.mp3")
+cards[cards.length] = new card("eight o'clock","otto","otto.mp3")
+cards[cards.length] = new card("nine o'clock","nove","nove.mp3")
+cards[cards.length] = new card("ten o'clock","dieci","dieci.mp3")
+cards[cards.length] = new card("eleven o'clock","le undici","le-undici.mp3")
+cards[cards.length] = new card("twelve o'clock","le dodici","le-dodici.mp3")

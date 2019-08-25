@@ -1,0 +1,20 @@
+var title = "Espressioni sui mesi"
+
+var cards = []
+cards[cards.length] = new card("the first day of the month","il primo giorno del mese","il-primo-giorno-del-mese.mp3")
+cards[cards.length] = new card("September 19th","diciannove settembre","diciannove-settembre.mp3")
+cards[cards.length] = new card("on September 19th","il diciannove settembre","il-diciannove-settembre.mp3")
+cards[cards.length] = new card("on or about September 19th","intorno al diciannove settembre","intorno-al-diciannove-settembre.mp3")
+cards[cards.length] = new card("there are 30 days in September","ci sono trenta giorni a settembre","ci-sono-trenta-giorni-a-settembre.mp3")
+cards[cards.length] = new card("September has 30 days","settembre ha trenta giorni","settembre-ha-trenta-giorni.mp3")
+cards[cards.length] = new card("a leap year","un anno bisestile","un-anno-bisestile.mp3")
+cards[cards.length] = new card("a leap year occurs every 4 years","un anno bisestile si verifica ogni quattro anni","un-anno-bisestile-4.mp3")
+cards[cards.length] = new card("a leap year occurs every 4 years with the exception of century years","un anno bisestile si verifica ogni quattro anni ad eccezione degli anni del secolo","un-anno-bisestile-100.mp3")
+cards[cards.length] = new card("a leap year occurs every 4 years with the exception of century years, except every 400 years","un anno bisestile si verifica ogni quattro anni ad eccezione degli anni del secolo, tranne ogni quattrocento anni","un-anno-bisestile-400.mp3")
+cards[cards.length] = new card("February has 28 days","febbraio ha ventotto giorni","febbraio-ha-ventotto-giorni.mp3")
+cards[cards.length] = new card("February has 28 days except in leap years, when it has 29 days","Febbraio ha ventotto giorni tranne negli anni bisestili, quando ha ventinove giorni","febbraio-ha-ventinove-giorni.mp3")
+cards[cards.length] = new card("a year has 365 days, but a leap year has 366","un anno ha trecentosessantacinque giorni, ma un anno bisestile ha trecentosessantasei","un-anno-ha-365-giorni.mp3")
+cards[cards.length] = new card("payment is due on the fifteenth of every month","il pagamento &egrave; dovuto il quindici di ogni mese","il-pagamento-e-dovuto.mp3")
+cards[cards.length] = new card("Beware the Ides of March!","Attenzione alle idi di marzo!","idi-di-marzo.mp3")
+cards[cards.length] = new card("there are twelve months in a year","ci sono dodici mesi in un anno","dodici-mesi-in-un-anno.mp3")
+cards[cards.length] = new card("there are seven days in a week","ci sono sette giorni in una settimana","sette-giorni-in-una-settimana.mp3")

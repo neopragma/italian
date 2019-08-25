@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Esercizio di abbinamento</title>
+<meta charset="UTF=8">
+<base target="_blank">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, print" />
+<link rel="stylesheet" href="css/schede.css" type="text/css" media="screen, print" />
+<script src="js/card.js"></script>
+<script src="js/numeri-ordinali.js"></script>
+<script src="js/abbinamento.js"></script>
+<style>
+.dragbox {
+  width: 300px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.originalbox {
+  width: 300px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+}
+.top {
+  vertical-align: top;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+</style>
+</head>
+<body onload="randomizeIndices()">
+
+<h2 id="title"></h2>
+
+<table>
+  <tr>
+    <td id="leftside" class="top"></td>
+    <td id="rightside" class="top"></td>
+    <td id="originalentries" class="top"></td>
+  </tr>
+</table>
+
+<!--
+<table>
+  <tr>
+    <td class="top">
+      <div class="dragbox" id="left-1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <span id="textsource-1" draggable="true" ondragstart="saveSourceId(this.id);drag(event)">Io sono Italiano</span>
+      </div>
+      <div class="dragbox" id="left-2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <span id="textsource-2" draggable="true" ondragstart="saveSourceId(this.id);drag(event)">Noi siamo insieme</span>
+      </div>
+      <div class="dragbox" id="left-3" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <span id="textsource-3" draggable="true" ondragstart="saveSourceId(this.id);drag(event)">Lei &egrave; un ingegnere</span>
+      </div>
+      <div class="dragbox" id="left-4" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <span id="textsource-4" draggable="true" ondragstart="saveSourceId(this.id);drag(event)">Tu eri a casa</span>
+      </div>
+      <div class="dragbox" id="left-5" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <span id="textsource-5" draggable="true" ondragstart="saveSourceId(this.id);drag(event)">Loro erano stati ben praparati</span>
+      </div>
+    </td>
+    <td class="top">
+      <div class="dragbox" id="right-2" ondrop="this.innerHTML='';drop(event);check(this.id,event)" ondragover="allowDrop(event)">
+      </div>
+      <div class="dragbox" id="right-5" ondrop="this.innerHTML='';drop(event);check(this.id,event)" ondragover="allowDrop(event)">
+      </div>
+      <div class="dragbox" id="right-1" ondrop="this.innerHTML='';drop(event);check(this.id,event)" ondragover="allowDrop(event)">
+      </div>
+      <div class="dragbox" id="right-4" ondrop="this.innerHTML='';drop(event);check(this.id,event)" ondragover="allowDrop(event)">
+      </div>
+      <div class="dragbox" id="right-3" ondrop="this.innerHTML='';drop(event);check(this.id,event)" ondragover="allowDrop(event)">
+      </div>
+    </td>
+    <td class="top">
+      <div class="dragbox" id="original-2">
+        We are together
+      </div>
+      <div class="dragbox" id="original-5">
+        They had been well prepared
+      </div>
+      <div class="dragbox" id="original-1">
+        I'm Italian
+      </div>
+      <div class="dragbox" id="original-4">
+        You have been at home
+      </div>
+      <div class="dragbox" id="original-3">
+        She's an engineer
+      </div>
+    </td>
+  </tr>
+</table>
+-->
+
+</body>
+</html>
